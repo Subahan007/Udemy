@@ -115,7 +115,9 @@ footer{
     color: black;
     text-decoration: underline;
 }
-
+#parent2{
+    padding-left: ;
+}
 
 #parent2_head2{
     padding-left: 60px;
@@ -158,6 +160,7 @@ font-size: 10px;
     width: 300px;
     height: 400px;
     border-radius: 10px;
+    border: 1px solid black;
   
 }
 #bali1{
@@ -168,6 +171,7 @@ font-size: 10px;
 #bali2{
     padding-top: 10px;
    padding-left: 20px;
+   
 }
 #balih4{
     display: inline;
@@ -194,6 +198,7 @@ font-size: 10px;
     background-color: rgb(188, 187, 187);
 }
 #label{
+    width:  92.87%;
     background-color: white;
     height: 150px;
     padding-top: 20px;
@@ -205,8 +210,164 @@ font-size: 10px;
     text-align: center;
     color: rgb(80, 80, 80);
     font-size: 20px;
+
 }
 #label2{
     display: flex;
     justify-content: space-around;
+    
+}
+#label_downh1{
+    padding-left: 50px;
+}
+#parent3_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#parent3a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin-left: 50px;
+    width: 530px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    padding: 20px;
+    border-left:9px solid blueviolet;
+}
+#parent3a1{
+padding-left: 10px;
+padding-top: 10px;
+}
+#parent3as{
+    font-size: 20px;
+    font-weight: bold;
+}
+#parent3as_butt{
+background-color: rgb(242, 242, 242);
+border: 1px solid blueviolet;
+width: 120px;
+height: 25px;
+font-size: 15px;
+color: blueviolet;
+text-align: center;
+border-radius: 5px;
+}
+#parent3as2a{
+    font-weight: bold;
+    font-size: 17px;
+    color: blueviolet;
+}
+#parent4_main{
+    background-color: white;
+    padding: 10px;
+    
+}
+#parent4_head{
+    margin-left:50px
+}
+#parent4_div1{
+    border: 1px solid blueviolet;
+    border-top: 11px solid blueviolet;
+    border-radius: 10px;
+    margin-left:50px;
+   width: 420px; 
+   height: 550px;
+  display: inline-block;
+}
+#parent4_div1a{
+    background-color:rgb(245, 245, 245) ;
+    height: 90px;
+    padding: 10px;
+}
+#parent4_div1aS{
+    font-size: 16px;
+}
+#parent4_div1b{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#parent4_div1bS{
+    font-size: 20px;
+    font-weight: bold;
+}
+#parent4_div1bSright{
+    font-size: 16px;
+}
+#parent4_div1b-butt{
+    width: 380px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    border: 1px solid white;
+}
+#parent5{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 60px;
+}
+#parent5A{
+    padding: 80px;
+    width: 500px;
+    
+}
+#parent5a{
+    width: 280px;
+}
+#parent5b{
+   
+    vertical-align: top;
+}
+#parent5ab{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#parent5butt{
+    width: 160px;
+    height: 60px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+#parent5butt:hover{
+    background-color: rgb(81, 81, 81);
+}
+#footer{
+    color: white;
+    background-color: black;
+    padding: 10px;
+   
+}
+
+#footheader{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#footA{
+    color: white;
+   
+    font-size: 18px;
+}
+#footA:hover{
+    color:blueviolet;
+    text-decoration: none;}
+
+
+#spanfoot{
+    
+}
+#footdiv{
+    display: inline-block;
+    padding: 40px;
+   padding-left: 40px;
+  font-size: 15px;
 }
